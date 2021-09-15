@@ -1,3 +1,4 @@
+//variables
 $navbar-color: rgb(175, 225, 245);
 $font: monospace;
 $fontsz:24px;
@@ -191,6 +192,7 @@ body{
         }
     }
 }
+//Cards with grid system
 .post-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -229,11 +231,8 @@ body{
     .desc{
         font-size: 14px;
         text-indent:20px;
-        text-align: justify;
-        
+        text-align: justify;    
         padding: 15px;
-
-
         p{
             
         }
@@ -242,7 +241,7 @@ body{
 .hidden{
     visibility: hidden;
 }
-
+//hidden modal
 .modal{
     display: none;
     width: 50%;
@@ -253,20 +252,13 @@ body{
     top:5%;
     left:25%;
     border-radius: 10px;
-    padding: 20px;
-   
-    
-    
-    
+    padding: 20px;  
     a{
         position:absolute;
         top:10px;
         right: 15px;
         text-decoration: none;
-        color:white;
-        
-
-        
+        color:white;      
     }
     .modal-content{
         position: relative;
@@ -274,9 +266,7 @@ body{
            
             color: white;
             padding:30px;
-            margin:30px;
-            
-            
+            margin:30px;           
         }
     }
 }
