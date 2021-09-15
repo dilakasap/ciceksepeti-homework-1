@@ -11,18 +11,13 @@ body{
     font-family: $font;
     font-size:$fontsz;
     background-color:whitesmoke ;
-    
 }
 .nav-bar{
     height: 130px;
     display: flex;
     justify-content: space-between;
     padding: 0 30px;
-    background: 
-		
-		url(https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center;
-		
-        
+    background:	url(https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center;     
 	background-size: cover;
 	border-bottom: 1px solid rgba(255,255,255, 0.4);
 }
@@ -33,7 +28,6 @@ body{
     img{
         width: 60px;
        height: 60px;
-
     }
 }
 .search-bar{
@@ -53,7 +47,6 @@ body{
         &:hover{
             background-color:rgba(255,255,255, 0.7);
         }
-
     }
     a{
         position: absolute;
@@ -62,7 +55,6 @@ body{
         i{
             font-size: 20px;
             color:black;
-
         }
     }
 }
@@ -82,18 +74,13 @@ body{
    display: flex;
    margin-top:50px;
    margin-bottom: 50px;
-  
-
-
 }
 .side-bar{
     display: flex;
     flex-direction: column;
     width: 300px;
-    
     margin-right: 100px;
     margin-top: 90px;
-
     a{
         text-decoration: none;
         padding: 15px;
@@ -112,7 +99,6 @@ body{
         transform:translateY(-3px);
        }
     }
-    
 }
 .form{
     margin: auto;
@@ -135,7 +121,7 @@ body{
         width: 100%;
         box-shadow: 4px 7px 7px rgba(0,0,0, 0.5);
         border:1px solid black;
-    
+
         input{
             border: none;
             margin-bottom: 5px;
@@ -174,9 +160,7 @@ body{
             input{
                 opacity: 0.5;
             }
-        }
-        
-        
+        }  
     }
 }
 .content{
@@ -218,7 +202,6 @@ body{
         img{
             width: 100%;
             border-radius: 10px;
-
         }  
     }
     .title{
@@ -262,8 +245,7 @@ body{
     }
     .modal-content{
         position: relative;
-        p{
-           
+        p{ 
             color: white;
             padding:30px;
             margin:30px;           
@@ -277,14 +259,12 @@ body{
         flex-direction: row;
         width: 100%;
         margin-bottom: 20px;
-        
+        margin-top: 0;
         a{
             border-radius: 5px;
             width: 100%;
             box-shadow: 0 5px 5px rgba(0,0,0, 0.5);
-
-        }
-        
+        }  
     }
     .main-container{
         display: flex;
@@ -298,5 +278,14 @@ body{
         width: auto;
         margin:0 20px;
     }
-    
+    .search-bar{
+        margin: 0 15px;
+    }
+    .content{
+        .content-title{
+            p{
+                font-size: 24px;
+            }
+        }
+    }
 }

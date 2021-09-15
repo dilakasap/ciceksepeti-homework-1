@@ -344,6 +344,7 @@ body {
             flex-direction: row;
     width: 100%;
     margin-bottom: 20px;
+    margin-top: 0;
   }
   .side-bar a {
     border-radius: 5px;
@@ -367,6 +368,12 @@ body {
   .post-wrapper {
     width: auto;
     margin: 0 20px;
+  }
+  .search-bar {
+    margin: 0 15px;
+  }
+  .content .content-title p {
+    font-size: 24px;
   }
 }
 /*# sourceMappingURL=style.css.map */
