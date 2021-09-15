@@ -74,10 +74,8 @@ function fetchCards(q = '') {
             if (q !== '') {
                 q=q.toLowerCase();
                 data = data.filter((x) => {
-                    console.log(x.title);
                     return x.title.toLowerCase().includes(q) || x.body.toLowerCase().includes(q)
                 });
-                console.log(data);
             }
             loadCards(data);
         });
