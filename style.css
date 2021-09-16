@@ -260,6 +260,16 @@ body {
   border-radius: 20px;
   -webkit-box-shadow: 4px 7px 7px rgba(0, 0, 0, 0.5);
           box-shadow: 4px 7px 7px rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .post:hover {
@@ -298,6 +308,19 @@ body {
   text-indent: 20px;
   text-align: justify;
   padding: 15px;
+}
+
+.post .crdbtn {
+  text-align: center;
+}
+
+.post .crdbtn .crdbtn_b {
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
 }
 
 .hidden {

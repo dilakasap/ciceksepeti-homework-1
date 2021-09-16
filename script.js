@@ -106,13 +106,22 @@ function loadCards(data) {
         desc.className = "desc";
         let p_desc = document.createElement("p");
         p_desc.innerHTML = data[i].body;
+        let crdbtn=document.createElement("div");
+        crdbtn.className="crdbtn";
+        let crdbtn_b =document.createElement("a");
+        crdbtn_b.className="crdbtn_b";
+        crdbtn_b.href="https://jsonplaceholder.typicode.com/posts/"+(i+1);
+        crdbtn_b.target="_blank";
+        crdbtn_b.textContent="Click"
 
+        crdbtn.appendChild(crdbtn_b);
         desc.appendChild(p_desc);
         title.appendChild(p_title);
         image.appendChild(img);
         post.appendChild(image);
         post.appendChild(title);
         post.appendChild(desc);
+        post.appendChild(crdbtn);
         postWrapper.appendChild(post);
         content.appendChild(postWrapper);
         mainContainer.appendChild(content);

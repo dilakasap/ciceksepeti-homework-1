@@ -191,6 +191,9 @@ body{
     border:2px solid black;
     border-radius: 20px;
     box-shadow: 4px 7px 7px rgba(0,0,0, 0.5);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
     &:hover{
         background-color: rgba(255,255,255, 0.5);
     }
@@ -220,6 +223,19 @@ body{
         padding: 15px;
         p{
             
+        }
+    }
+    .crdbtn{
+   text-align: center;
+        
+        .crdbtn_b{
+            font-size: 15px;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 5px;
+            text-decoration: none;
+            color: black;
+
         }
     }
 }
