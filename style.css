@@ -120,7 +120,7 @@ body {
   margin-top: 90px;
 }
 
-.side-bar a {
+.side-bar button {
   text-decoration: none;
   padding: 15px;
   color: rgba(0, 0, 0, 0.8);
@@ -134,9 +134,11 @@ body {
   -webkit-transition: 300ms all;
   transition: 300ms all;
   background-color: rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  font-family: monospace;
 }
 
-.side-bar a:hover {
+.side-bar button:hover {
   background-color: rgba(255, 255, 255, 0.7);
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
@@ -346,7 +348,7 @@ body {
     margin-bottom: 20px;
     margin-top: 0;
   }
-  .side-bar a {
+  .side-bar button {
     border-radius: 5px;
     width: 100%;
     -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);

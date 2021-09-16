@@ -58,8 +58,11 @@ function Run() {
 function loadForm() {
     mainContainer.innerHTML = "";
     mainContainer.appendChild(sideBar);
+    cardsButton.style.backgroundColor="";
+    formButton.style.backgroundColor="rgba(220,250,250, 0.7)";
     mainContainer.appendChild(form);
     searchBar.classList.add("hidden");
+
 
 }
 //get data from API with fetch, filter data for search-bar
@@ -67,6 +70,8 @@ function fetchCards(q = '') {
     mainContainer.innerHTML = "";
     postWrapper.innerHTML = "";
     mainContainer.appendChild(sideBar);
+    formButton.style.backgroundColor="";
+    cardsButton.style.backgroundColor="rgba(220,250,250, 0.7)";
     searchBar.classList.remove("hidden");
     fetch("https://jsonplaceholder.typicode.com/posts")
         .then((res) => res.json())
